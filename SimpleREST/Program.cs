@@ -35,7 +35,6 @@ namespace SimpleREST {
     }
 
     public class TestController : ApiController {
-
         [HttpGet]
         public IHttpActionResult Test() {
             var msg = $"Received test request at {DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss.fff TT")}";
